@@ -22,13 +22,13 @@ public class TableExample {
 
         JTable jt= new JTable(data, column); // Define Table
         // It is necessary to write first data of Table and second Column of Table
-        jt.setBounds(30, 40, 200, 3000);
+        jt.setBounds(30, 40, 100, 200);
 
-        //JScrollPane js= new JScrollPane(jt);
+        JScrollPane js= new JScrollPane(jt);
         // JScrollPane add the Column into column
         // If we don't use js into frame then we show only data of table
 
-        frame.add(jt);
+        frame.add(js);
         frame.setSize(300, 400);
         frame.setVisible(true);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
