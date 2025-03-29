@@ -9,10 +9,10 @@ public class TableExample {
         frame= new JFrame("Table Example");
 
         // Table Heading as column
-        String column[]= {"PRN", "Name", "Grade"};
+        String[] column= {"PRN", "Name", "Grade"};
 
         // Table data
-        String data[][]= {
+        String[][] data= {
                 //PRN      Name    Grade
                 {"31001", "Akash", "A"},
                 {"31002", "Divyanshu", "B"},
